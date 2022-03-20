@@ -882,6 +882,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit(
             text="▣▣▣"
         )
+        await query.message.edit(
             text=script.CORONA_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
