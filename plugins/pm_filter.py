@@ -1405,6 +1405,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit(
             text="▣▣▣"
         )
+        await query.message.edit(
             text=script.STATUS_TXT.format(total, users, chats, monsize, free),
             reply_markup=reply_markup,
             parse_mode='html'
