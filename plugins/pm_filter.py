@@ -882,7 +882,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit(
             text="▣▣▣"
         )
-        await query.message.edit(
             text=script.CORONA_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -1096,7 +1095,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-       
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.SOURCE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1108,6 +1114,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.MANUELFILTER_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1118,6 +1132,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.BUTTON_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1128,6 +1150,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.AUTOFILTER_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1138,6 +1168,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.CONNECTION_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1149,6 +1187,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.EXTRAMOD_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1160,6 +1206,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.GTRANS_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -1171,6 +1225,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.REPORT_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -1182,6 +1244,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.STICKER_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -1193,6 +1263,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.YTTHUMB_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -1204,6 +1282,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.ADMIN_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1214,6 +1300,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.ABOOK_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -1225,6 +1319,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.FILE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1235,6 +1337,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.SONG_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1245,6 +1355,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.DEPLOY_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1263,6 +1381,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         monsize = get_size(monsize)
         free = get_size(free)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.STATUS_TXT.format(total, users, chats, monsize, free),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1282,6 +1408,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         monsize = get_size(monsize)
         free = get_size(free)
         await query.message.edit_text(
+            text="▣▢▢"
+        )
+        await query.message.edit(
+            text="▣▣▢"
+        )
+        await query.message.edit(
+            text="▣▣▣"
+        )
             text=script.STATUS_TXT.format(total, users, chats, monsize, free),
             reply_markup=reply_markup,
             parse_mode='html'
