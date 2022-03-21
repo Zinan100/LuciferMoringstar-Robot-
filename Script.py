@@ -202,13 +202,21 @@ Delete A Lot Of Messages From Groups!
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
+    AUTOFILTER_TXT = """HELP: Auto Filter
 
-<b>NOTE:</b>
-1. Make me the admin of your channel if it's private.
-2. make sure that your channel does not contains camrips, porn and fake files.
-3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db."""
+Auto Filter is the feature to filter and save all the files automatically from channel to group. This mostly used in group to get movies with name!
+
+USAGE:
+➢ /autofilter [on] - Enable auto filter in the chat.
+➢ /autofilter [off] - Disable auto filter in the chat.
+➢ /set_template - Set custom template for auto filter.
+➢ /get_template - Get current template for auto filter.
+
+NOTE:
+• Make me the admin of your channel if it's private.
+• Make sure that your channel does not contains camrips, porn and fake files.
+• Forward the last message to me with quotes or send me the last message link.
+• Shizuki will save all the files in that channel to db as u can use them in the group."""
     CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
