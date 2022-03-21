@@ -1272,7 +1272,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▣▣"
         )
-         await query.message.edit_text(
+        await query.message.edit_text(
             text=script.YTTHUMB_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
