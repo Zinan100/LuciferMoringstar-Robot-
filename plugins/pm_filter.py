@@ -767,10 +767,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await msg.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await msg.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
         await query.message.edit_text(                     
@@ -789,10 +789,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await msg.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await msg.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
         await query.message.edit_text(
@@ -808,13 +808,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.RESTRIC_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -828,13 +828,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.IMAGE_TXT.format(temp.B_NAME),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -848,13 +848,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.WHOIS_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -867,22 +867,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
-            text="▣▢▢"
-        )
-        await query.message.edit(
-            text="▣▣▢"
-        )
-        await query.message.edit(
-            text="▣▣▣"
-        )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.CORONA_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -896,13 +887,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.URLSHORT_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -916,13 +907,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.ZOMBIES_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -936,13 +927,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.FUN_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -965,13 +956,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.PIN_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -984,13 +975,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.JSON_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1003,13 +994,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.PASTE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1022,13 +1013,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
            text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.PINGS_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1041,13 +1032,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.TTS_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1060,13 +1051,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.PURGE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1079,13 +1070,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.TELE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1098,13 +1089,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.SOURCE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1118,13 +1109,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.MANUELFILTER_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1137,13 +1128,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.BUTTON_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1156,13 +1147,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.AUTOFILTER_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1175,13 +1166,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.CONNECTION_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1195,13 +1186,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.EXTRAMOD_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1215,13 +1206,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.GTRANS_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -1235,13 +1226,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.REPORT_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -1255,13 +1246,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.STICKER_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -1275,13 +1266,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-         await query.message.edit(
+         await query.message.edit_text(
             text=script.YTTHUMB_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -1295,13 +1286,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.ADMIN_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1314,13 +1305,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.ABOOK_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -1334,13 +1325,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.FILE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1353,13 +1344,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.SONG_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1372,13 +1363,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text="▣▢▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▢"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text="▣▣▣"
         )
-        await query.message.edit(
+        await query.message.edit_text(
             text=script.DEPLOY_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
