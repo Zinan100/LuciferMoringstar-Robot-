@@ -216,7 +216,7 @@ NOTE:
 • Make me the admin of your channel if it's private.
 • Make sure that your channel does not contains camrips, porn and fake files.
 • Forward the last message to me with quotes or send me the last message link.
-• Shizuki will save all the files in that channel to db as u can use them in the group."""
+• **𝙰𝙻𝙴𝚇** will save all the files in that channel to db as u can use them in the group."""
     CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
