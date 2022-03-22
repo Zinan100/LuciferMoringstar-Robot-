@@ -44,7 +44,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 GROUP 💠', url='https://t.me/moviespot001100'),
+            InlineKeyboardButton('💠 GᖇOᑌᑭ 💠', url='https://t.me/moviespot001100'),
             InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/moviespot00100')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
@@ -89,15 +89,15 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 GROUP 💠', url='https://t.me/moviespot001100'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/moviespot00100')
+            InlineKeyboardButton('💠 ႺᖇOUᑭ 💠', url='https://t.me/moviespot001100'),
+            InlineKeyboardButton('💠 UᑭDΛTΞS 💠', url='https://t.me/moviespot00100')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
-        m=await message.reply_sticker("CAACAgUAAxkBAAECHo5iNwSg1ajLteRUOxsYQadppr5ZsQACRwUAAviBgVcLSzZyGrlUKh4E") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAID52I5UyHJhEFHXdFqpDavliAd4MG7AAKaAAPIlGQULGXh4VzvJWoeBA") 
         await asyncio.sleep(2)
         await m.delete()
         await message.reply_photo(
