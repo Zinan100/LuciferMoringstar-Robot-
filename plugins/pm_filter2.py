@@ -75,7 +75,7 @@ from image.edit_5 import (  # pylint:disable=import-error
 BUTTONS = {}
 SPELL_CHECK = {}
 
-@Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
+@Client.on_message(filters.private & filters.text & ~filters.edited & filters.incoming)
 async def give_filter(client, message):
     k = await manual_filters(client, message)
     if k == False:
