@@ -1654,10 +1654,8 @@ async def auto_filter(client, msg, spoll=False):
         try:
             joelkb = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(300)
-            await joelkb.delete_photo()
             await joelkb.edit(f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Cʟᴏsᴇᴅ 🗑️")
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
-            pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
             await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
         except Exception as e:
