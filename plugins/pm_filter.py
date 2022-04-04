@@ -1,3 +1,4 @@
+# (c) alex
 import asyncio
 import re
 import ast
