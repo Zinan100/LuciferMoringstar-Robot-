@@ -465,6 +465,16 @@ async def settings(client, message):
                     callback_data=f'setgs#welcome#{settings["welcome"]}#{grp_id}',
                 ),
             ],
+            [
+                InlineKeyboardButton(
+                    '🅰︎🆄︎🆃︎🅾︎ 🅵︎🅸︎🅻︎🆃︎🅴︎🆁︎',
+                    callback_data=f'setgs#filter_mode#{settings["filter_mode"]}#{grp_id}',
+                ),
+                InlineKeyboardButton(
+                    '✅ 𝐘𝐄𝐒' if settings["filter_mode"] else '🗑️ 𝐍𝐎',
+                    callback_data=f'setgs#filter_mode#{settings["filter_mode"]}#{grp_id}',
+                ),
+            ],
         ]
 
         reply_markup = InlineKeyboardMarkup(buttons)
