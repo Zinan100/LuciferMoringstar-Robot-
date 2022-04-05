@@ -1658,6 +1658,10 @@ async def auto_filter(client, msg, spoll=False):
             await asyncio.sleep(900)
             await message.delete()
             await joelkb.delete()
+            await message.reply_photo(
+                photo="https://telegra.ph/file/1f3d1caccd1f4f17afeb6.jpg",
+                caption=f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Cʟᴏsᴇᴅ 🗑️"
+            )
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
