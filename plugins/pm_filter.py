@@ -1655,7 +1655,7 @@ async def auto_filter(client, msg, spoll=False):
     if imdb and imdb.get('poster'):
         try:
             joelkb = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(10)
+            await asyncio.sleep(900)
             await message.delete()
             await joelkb.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
