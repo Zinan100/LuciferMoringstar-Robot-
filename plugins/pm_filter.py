@@ -1654,9 +1654,10 @@ async def auto_filter(client, msg, spoll=False):
         cap = f"Here is what i found for your query {search}"
     if imdb and imdb.get('poster'):
         try:
+            alkb = app.edit_message_media(chat_id, message_id, InputMediaPhoto("new_photo.jpg"))
             joelkb = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(900)
-            await message.edit(f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Cʟᴏsᴇᴅ 🗑️")
+            await alkb.edit(f"⚙️ Fɪʟᴛᴇʀ Fᴏʀ <code>{search}</code> Cʟᴏsᴇᴅ 🗑️")
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
