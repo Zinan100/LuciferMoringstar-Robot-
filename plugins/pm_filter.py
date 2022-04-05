@@ -1709,7 +1709,7 @@ async def advantage_spell_chok(msg):
     SPELL_CHECK[msg.message_id] = movielist
     btn = [[
                 InlineKeyboardButton(
-                    text=🕵️‍♂️ Search On Google 🕵️‍♂️(),
+                    text=(🕵️‍♂️ Search On Google 🕵️‍♂️),
                     url="https://google.com/search?q={search}",
                 )
             ] for k, movie in enumerate(movielist)]
