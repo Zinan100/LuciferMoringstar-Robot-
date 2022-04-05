@@ -1559,6 +1559,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('𝐖𝐄𝐋𝐂𝐎𝐌𝐄', callback_data=f'setgs#welcome#{settings["welcome"]}#{str(grp_id)}'),
                     InlineKeyboardButton('✅ 𝐘𝐄𝐒' if settings["welcome"] else '🗑️ 𝐍𝐎',
                                          callback_data=f'setgs#welcome#{settings["welcome"]}#{str(grp_id)}')
+                ],
+                [
+                    InlineKeyboardButton('🅰︎🆄︎🆃︎🅾︎ 🅵︎🅸︎🅻︎🆃︎🅴︎🆁︎', callback_data=f'setgs#filter_mode#{settings["filter_mode"]}#{str(grp_id)}'),
+                    InlineKeyboardButton('✅ 𝐘𝐄𝐒' if settings["filter_mode"] else '🗑️ 𝐍𝐎',
+                                         callback_data=f'setgs#filter_mode#{settings["filter_mode"]}#{str(grp_id)}')
                 ]
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
