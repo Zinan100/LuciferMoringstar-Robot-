@@ -76,30 +76,6 @@ from image.edit_5 import (  # pylint:disable=import-error
 
 BUTTONS = {}
 SPELL_CHECK = {}
-FILTER_MODE = {}
-
-@Client.on_message(filters.command('autofilter'))
-async def fil_mod(client, message):
-      mode_on = ["yes", "on", "true"]
-      mode_of = ["no", "off", "false"]
-
-      try:
-         args = message.text.split(None, 1)[1].lower()
-      except:
-         return await message.reply("Command is incomplete.")
-
-      m = await message.reply("Processing...")
-
-      if args in mode_on:
-          FILTER_MODE[str(message.chat.id)] = "True"
-          await m.edit("Auto filter enabled for this chat")
-
-      elif args in mode_of:
-          FILTER_MODE[str(message.chat.id)] = "False"
-          await m.edit("Auto filter disabled for this chat")
-      else:
-          await m.edit("Use: `/autofilter on` or `/autofilter off`")
-
 
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client,message):
