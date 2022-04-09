@@ -1,13 +1,9 @@
-# Give Credits if u Like 😜 # Ok Done 👍
-
 import logging
 import asyncio
 from info import LOG_CHANNEL
 from pyrogram import Client, filters
 from pyrogram.errors import RPCError
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from database.autofilter_db import *
-# LOGGING ERRORS
 LOGGER = logging.getLogger(__name__)
 LOGGER.setLevel(logging.INFO)
 
